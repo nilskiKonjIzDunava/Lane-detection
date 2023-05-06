@@ -12,7 +12,7 @@ The task was divided into several parts:
     - All points of the length between the start and end are located on the given direction
     - It is allowed to ignore missing segments of the maximum length that is given when calling the function 
     - It is considered that a certain pixel on the given direction belongs to an edge if there is an edge pixel in its environment, the size of which is given as a parameter of the function
-      
+
     Input parameters:
         - img_edges: image with detected edge pixels from which lines are detected line - an 	array of two elements (theta, rho) specifying the direction of the line 
         - min_size: the minimum segment length (in pixels) to be detected, all lines smaller than 	this size should be ignored. The return argument of this function are all lengths whose 	length is greater than this parameter
