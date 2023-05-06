@@ -1,6 +1,8 @@
 # Lane-detection
 
-This repository provides an algorithm to detect the lanes separating the road lanes on a dashcam video (video_road.mp4). The car moves in one lane on the highway, where the lane is limited by a solid or broken white line, or a solid yellow line. The detected lines (one for each dividing line) are drawn as extensions over the existing video frames. The task was divided into several parts:
+This repository provides an algorithm to detect the lanes separating the road lanes on a dashcam video (video_road.mp4). The car moves in one lane on the highway, where the lane is limited by a solid or broken white line, or a solid yellow line. The detected lines (one for each dividing line) are drawn as extensions over the existing video frames. 
+
+The task was divided into several parts:
 
 1. segment_lanes function which for the input image extracts as best as possible the segment of the image containing the lines that separate the traffic lanes
 
