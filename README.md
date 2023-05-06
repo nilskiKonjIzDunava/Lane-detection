@@ -13,12 +13,12 @@ The task was divided into several parts:
     - It is allowed to ignore missing segments of the maximum length that is given when calling the function 
     - It is considered that a certain pixel on the given direction belongs to an edge if there is an edge pixel in its environment, the size of which is given as a parameter of the function
 
-    + Input parameters:
+    - Input parameters:
      - img_edges: image with detected edge pixels from which lines are detected line - an 	array of two elements (theta, rho) specifying the direction of the line
       - min_size: the minimum segment length (in pixels) to be detected, all lines smaller than 	this size should be ignored. The return argument of this function are all lengths whose 	length is greater than this parameter
      - max_gaps: the maximum size of gaps (in pixels) that can be ignored when detecting 	longer tolerance – the radius of the environment within which edge pixels are searched
     
-    + Output parameters:
+    - Output parameters:
      - line_segments: array of detected lines where each line is represented with the coordinates of the start and end point of the line
 
 
