@@ -14,12 +14,12 @@ The task was divided into several parts:
     - It is considered that a certain pixel on the given direction belongs to an edge if there is an edge pixel in its environment, the size of which is given as a parameter of the function
 
     - Input parameters:
-     - img_edges: image with detected edge pixels from which lines are detected line - an 	array of two elements (theta, rho) specifying the direction of the line
+      - img_edges: image with detected edge pixels from which lines are detected line - an 	array of two elements (theta, rho) specifying the direction of the line
       - min_size: the minimum segment length (in pixels) to be detected, all lines smaller than 	this size should be ignored. The return argument of this function are all lengths whose 	length is greater than this parameter
-     - max_gaps: the maximum size of gaps (in pixels) that can be ignored when detecting 	longer tolerance – the radius of the environment within which edge pixels are searched
+      - max_gaps: the maximum size of gaps (in pixels) that can be ignored when detecting 	longer tolerance – the radius of the environment within which edge pixels are searched
     
     - Output parameters:
-     - line_segments: array of detected lines where each line is represented with the coordinates of the start and end point of the line
+      - line_segments: array of detected lines where each line is represented with the coordinates of the start and end point of the line
 
 
 4. lane_detection function that accepts an image (one video frame) as the only input argument and returns two arrays of 4 elements each [xl1, yl1, xl2, yl2], [xr1, yr1, xr2, yr2] representing the coordinates points that unambiguously determine the left and right lane lines in which the car is moving.
